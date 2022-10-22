@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- set seo optimization -->
+    <meta
+      name="description"
+      content="Sabtu, 29 Oktober 2022. Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Menghadiri Acara Pernikahan Kami."
+    />
+
+    <link
+      rel="canonical"
+      hreflang="id"
+      href="https://menikahlah.com/ariacitra"
+    />
+
+    <meta
+      property="og:title"
+      content="Undangan Pernikahan Aria & Citra - Menikahlah"
+    />
+    <meta property="og:url" content="https://menikahlah.com/ariacitra" />
+    <meta
+      property="og:description"
+      content="Sabtu, 29 Oktober 2022. Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Menghadiri Acara Pernikahan Kami."
+    />
+    <meta
+      property="og:image"
+      content="https://i.pinimg.com/564x/9b/38/ae/9b38ae958251234e1b8d1ad173ae581f.jpg"
+    />
+
+    <!-- add favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/icons/msg-rsvp.svg" />
+
+    <!-- add cdn tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- add tailwind.config -->
+    <script src="assets/scripts/tailwind.config.js"></script>
+
+    <!-- add cdn alphine js -->
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.10.4/dist/cdn.min.js"
+    ></script>
+
+    <!-- add customize font -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+    </style>
+
+    <style type="text/tailwindcss">
+      @font-face {
+        font-family: "Charlotte Southern";
+        src: url("assets/fonts/Charlotte\ Southern.otf");
+      }
+    </style>
+
+    <title>Undangan Pernikahan Aria & Citra - Menikahlah</title>
+  </head>
+  <body class="font-poppins">
+    <!-- popup invitation section -->
+    <section
+      id="popup-invitation"
+      class="bg-motif bg-flower popup-invitation flex h-screen w-screen items-center justify-center overflow-hidden bg-cover bg-[length:100%_140%] bg-no-repeat"
+    >
+      <div
+        class="popup-invitation-container laptop:mx-8 tablet:mx-6 mx-4 flex flex-col items-center text-center text-white"
+      >
+        <img
+          class="laptop:w-[180px] laptop:h-[180px] tablet:w-[160px] tablet:h-[160px] mb-5"
+          src="assets/images/couple-circle-cover.png"
+          alt="couple"
+          width="140"
+          height="140"
+        />
+        <div class="popup-invitation-data">
+          <h1 class="font-charlotte laptop:text-6xl mb-5 text-5xl">
+            Aria & Citra
+          </h1>
+          <h2 class="laptop:text-xl mb-2.5 text-base font-medium">
+            Sabtu, 29 Oktober 2022
+          </h2>
+          <p class="laptop:text-lg mb-3 text-sm">Kepada Bapak/Ibu/Saudara/i</p>
+          <h2 class="laptop:text-2xl mb-3 text-lg font-semibold">
+            Clarine Valerie
+          </h2>
+          <p class="laptop:text-base mb-7 text-xs">
+            Mohon maaf bila ada kesalahan pada penulisan nama/gelar
+          </p>
+        </div>
+        <button
+          id="inv-btn"
+          type="button"
+          class="text-motif laptop:text-lg tablet:text-base flex w-fit items-center rounded-xl bg-white p-2 text-sm font-medium duration-300 hover:-translate-y-1"
+        >
+          <a href="#" class="flex"
+            ><img
+              class="mr-1.5 hover:animate-bounce"
+              alt="book"
+              width="20"
+              height="20"
+              src="assets/icons/book-button-cover.svg"
+            />Buka Undangan</a
+          >
+        </button>
+      </div>
+    </section>
+
+    <!-- navbar -->
+    <header id="navbar">
+      <nav class="nav-container bg-motif fixed bottom-0 left-0 right-0 z-[1]">
+        <ul class="nav-menu flex flex-row items-center justify-center">
+          <li
+            class="laptop:text-lg tablet:text-base tablet:px-7 laptop:px-12 hover:bg-tiki-hut py-3 px-2.5 text-sm font-medium text-white transition duration-300 ease-in-out"
+          >
+            <a class="flex flex-col items-center" href="#home"
+              ><img
+                class="mb-1.5 hover:animate-bounce"
+                src="assets/icons/home-navbar.svg"
+                alt="home"
+                width="30"
+                height="30"
+              />Home</a
+            >
+          </li>
+          <li
+            class="laptop:text-lg tablet:text-base tablet:px-7 laptop:px-12 hover:bg-tiki-hut py-3 px-2.5 text-sm font-medium text-white transition duration-300 ease-in-out"
+          >
+            <a class="flex flex-col items-center" href="#couples"
+              ><img
+                class="mb-1.5 hover:animate-bounce"
+                src="assets/icons/couples-navbar.svg"
+                alt="couples"
+                width="30"
+                height="30"
+              />Couples</a
+            >
+          </li>
+          <li
+            class="laptop:text-lg tablet:text-base tablet:px-7 laptop:px-12 hover:bg-tiki-hut py-3 px-2.5 text-sm font-medium text-white transition duration-300 ease-in-out"
+          >
+            <a class="flex flex-col items-center" href="#event"
+              ><img
+                class="mb-1.5 hover:animate-bounce"
+                src="assets/icons/event-navbar.svg"
+                alt="event"
+                width="30"
+                height="30"
+              />Event</a
+            >
+          </li>
+          <li
+            class="laptop:text-lg tablet:text-base tablet:px-7 laptop:px-12 hover:bg-tiki-hut py-3 px-2.5 text-sm font-medium text-white transition duration-300 ease-in-out"
+          >
+            <a class="flex flex-col items-center" href="#gallery"
+              ><img
+                class="mb-1.5 hover:animate-bounce"
+                src="assets/icons/gallery-navbar.svg"
+                alt="gallery"
+                width="30"
+                height="30"
+              />Gallery</a
+            >
+          </li>
+          <li
+            class="laptop:text-lg tablet:text-base tablet:px-7 laptop:px-12 hover:bg-tiki-hut py-3 px-2.5 text-sm font-medium text-white transition duration-300 ease-in-out"
+          >
+            <a class="flex flex-col items-center" href="#rsvp"
+              ><img
+                class="mb-1.5 hover:animate-bounce"
+                src="assets/icons/rsvp-navbar.svg"
+                alt="rsvp"
+                width="30"
+                height="30"
+              />RSVP</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main
+      id="main"
+      class="bg-bleached-silk w-screen items-center justify-center"
+    >
+      <!-- home section -->
+      <section
+        class="home-container flex min-h-screen w-screen items-center justify-center"
+        id="home"
+      >
+        <video
+          class="home-bg-video absolute left-0 top-0 h-screen w-screen object-cover brightness-90"
+          src="assets/videos/hero-vertical.mp4"
+          type="video/mp4"
+          autoplay
+          playsinline
+          muted
+          loop
+        ></video>
+        <video
+          class="home-bg-video tablet:block absolute left-0 top-0 hidden h-screen w-screen object-cover brightness-90"
+          src="assets/videos/hero-horizontal.mp4"
+          type="video/mp4"
+          autoplay
+          playsinline
+          muted
+          loop
+        ></video>
+        <div
+          class="home-data z-[1] flex flex-col items-center text-center text-white"
+        >
+          <button
+            class="tablet:m-5 bg-pause fixed top-0 right-0 m-2 h-[30px] w-[30px] bg-no-repeat duration-300 hover:-translate-y-1"
+            id="play"
+          ></button>
+          <h1
+            class="laptop:text-xl tablet:text-base mb-5 text-sm font-semibold"
+          >
+            WE ARE GETTING MARRIED
+          </h1>
+          <h1 class="font-charlotte laptop:text-6xl mb-5 text-5xl">
+            Aria & Citra
+          </h1>
+          <p class="laptop:text-lg tablet:text-base mb-5 text-sm font-medium">
+            Save The Date
+          </p>
+          <div
+            class="tablet:gap-14 laptop:gap-20 flex flex-row gap-7"
+            id="countdown"
+          >
+            <div class="flex flex-col">
+              <h1 class="laptop:text-4xl text-2xl font-bold" id="days"></h1>
+              <h2 class="laptop:text-base text-sm">Hari</h2>
+            </div>
+            <div class="flex flex-col">
+              <h1 class="laptop:text-4xl text-2xl font-bold" id="hours"></h1>
+              <h2 class="laptop:text-base text-sm">Jam</h2>
+            </div>
+            <div class="flex flex-col">
+              <h1 class="laptop:text-4xl text-2xl font-bold" id="minutes"></h1>
+              <h2 class="laptop:text-base text-sm">Menit</h2>
+            </div>
+            <div class="flex flex-col">
+              <h1 class="laptop:text-4xl text-2xl font-bold" id="seconds"></h1>
+              <h2 class="laptop:text-base text-sm">Detik</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ayat suci section -->
+      <section class="ayat-suci-container h-auto w-screen pt-24 pb-4">
+        <div
+          class="ayat-suci-data laptop:mx-8 tablet:mx-6 mx-4 flex flex-col items-center justify-center text-center"
+        >
+          <img
+            class="laptop:w-[158px] laptop:h-[152px] mb-5"
+            src="assets/images/flower-doa.png"
+            alt="flower"
+            width="130"
+            height="125"
+          />
+          <p class="text-argent laptop:text-lg mb-5 text-base">
+            "Dan di antara ayat-ayat-Nya ialah Dia menciptakan untukmu
+            istri-istri dari jenismu sendiri, supaya kamu merasa nyaman
+            kepadanya, dan dijadikan-Nya di antaramu mawadah dan rahmah.
+            Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda
+            bagi kaum yang berpikir."
+          </p>
+          <h2 class="text-digital laptop:text-lg text-base font-semibold">
+            QS. Ar-Rum Ayat 21
+          </h2>
+        </div>
+      </section>
+
+      <!-- couples section -->
+      <section
+        class="couples-container h-auto w-screen pt-24 pb-4"
+        id="couples"
+      >
+        <h1
+          class="font-charlotte text-motif laptop:mx-8 tablet:mx-6 laptop:text-6xl mx-4 flex justify-center text-center text-5xl"
+        >
+          Sang Pengantin
+        </h1>
+        <div
+          class="tablet:gap-14 laptop:gap-20 tablet:flex-row laptop:mx-8 tablet:mx-6 mx-4 mt-8 flex flex-col items-center justify-center gap-7 text-center"
+        >
+          <div
+            class="groom-profile tablet:w-2/6 flex w-3/4 flex-col items-center rounded-md bg-white py-7"
+          >
+            <img
+              class="tablet:w-[160px] tablet:h-[160px] laptop:w-[180px] laptop:h-[180px]"
+              src="assets/images/groom-circle-couples.png"
+              alt="groom"
+              width="140"
+              height="140"
+            />
+            <h1 class="font-charlotte text-motif laptop:text-6xl my-3 text-5xl">
+              Aria
+            </h1>
+            <h2 class="text-digital laptop:text-lg mb-1 text-base font-medium">
+              Aria Ginansa
+            </h2>
+            <p class="text-argent laptop:text-base mb-1 text-sm font-medium">
+              Putra pertama dari :
+            </p>
+            <p class="text-digital laptop:text-base mb-1 text-sm">
+              Bapak Riskan Nurdiansyah
+            </p>
+            <p class="text-digital laptop:text-base mb-1 text-sm">
+              Ibu Desi Amirah
+            </p>
+          </div>
+          <div
+            class="bride-profile tablet:w-2/6 flex w-3/4 flex-col items-center rounded-md bg-white py-7"
+          >
+            <img
+              class="tablet:w-[146px] tablet:h-[160px] laptop:w-[180px] laptop:h-[180px]"
+              src="assets/images/bride-circle-couples.png"
+              alt="bride"
+              width="140"
+              height="140"
+            />
+            <h1 class="font-charlotte text-motif laptop:text-6xl my-3 text-5xl">
+              Citra
+            </h1>
+            <h2 class="text-digital laptop:text-lg mb-1 text-base font-medium">
+              Citra Agustin
+            </h2>
+            <p class="text-argent laptop:text-base mb-1 text-sm font-medium">
+              Putri ketiga dari :
+            </p>
+            <p class="text-digital laptop:text-base mb-1 text-sm">
+              Bapak Rasyid Sahaja
+            </p>
+            <p class="text-digital laptop:text-base mb-1 text-sm">
+              Ibu Ani Sukasih
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- event section -->
+      <section
+        class="event-container flex h-auto w-screen flex-col items-center justify-center pt-24 pb-4"
+        id="event"
+      >
+        <h1
+          class="font-charlotte text-motif laptop:mx-8 tablet:mx-6 laptop:text-6xl mx-4 mb-8 flex text-center text-5xl"
+        >
+          Menuju Hari Bahagia
+        </h1>
+        <p
+          class="laptop:mx-8 tablet:mx-6 text-argent laptop:text-lg mx-4 text-center text-base"
+        >
+          "Siang dan malam berganti begitu cepat, di antara saat-saat
+          mendebarkan yang belum pernah kami rasakan sebelumnya. Kami nantikan
+          kehadiran para keluarga dan sahabat, untuk menjadi saksi ikrar janji
+          suci kami di hari yang bahagia."
+        </p>
+        <div
+          class="event-data tablet:gap-9 laptop:gap-14 tablet:grid-cols-3 laptop:mx-8 tablet:mx-6 laptop:w-3/4 mx-4 mt-8 grid w-4/5 grid-cols-1 gap-7 rounded-md bg-white p-7 text-center"
+        >
+          <div class="flex flex-col">
+            <h1 class="font-charlotte text-motif laptop:text-6xl mb-5 text-5xl">
+              Akad Pernikahan
+            </h1>
+            <h2 class="text-argent laptop:text-lg mb-1 text-base font-medium">
+              Sabtu, 29 Oktober 2022
+            </h2>
+            <p class="text-argent laptop:text-lg text-base">
+              09.00 s.d 10.00 WIB
+            </p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              class="tablet:w-[160px] tablet:h-[160px] laptop:w-[180px] laptop:h-[180px]"
+              src="assets/images/couple-circle-event.png"
+              alt="couple"
+              width="140"
+              height="140"
+            />
+          </div>
+          <div class="flex flex-col">
+            <h1 class="font-charlotte text-motif laptop:text-6xl mb-5 text-5xl">
+              Resepsi Pernikahan
+            </h1>
+            <h2 class="text-argent laptop:text-lg mb-1 text-base font-medium">
+              Sabtu, 29 Oktober 2022
+            </h2>
+            <p class="text-argent laptop:text-lg text-base">
+              10.00 s.d 12.00 WIB
+            </p>
+          </div>
+          <div class="tablet:col-span-3 flex flex-col items-center">
+            <img
+              class="tablet:w-[40px] tablet:h-[40px] mb-5"
+              src="assets/icons/map-event.svg"
+              alt="map"
+              width="36"
+              height="36"
+            />
+            <h2
+              class="text-argent tablet:text-lg laptop:text-xl mb-2 font-medium"
+            >
+              Hotel Bumi Wiyata
+            </h2>
+            <p class="text-argent tablet:text-base laptop:text-lg mb-5 text-sm">
+              Jl. Margonda Raya No.281, Kemiri Muka, Kecamatan Beji, Kota Depok,
+              Jawa Barat 16423.
+            </p>
+            <button
+              type="button"
+              class="bg-motif tablet:text-base laptop:text-lg hover:bg-tiki-hut flex w-fit items-center rounded-xl p-2 text-sm font-medium text-white transition duration-300 duration-300 ease-in-out hover:-translate-y-1"
+            >
+              <a
+                class="flex"
+                href="https://www.google.com/maps/place/Hotel+Bumi+Wiyata/@-6.3787102,106.8272174,17z/data=!3m1!4b1!4m8!3m7!1s0x2e69ec0869e31b4f:0xaa40278d69385917!5m2!4m1!1i2!8m2!3d-6.3787102!4d106.8294061"
+                target="_blank"
+                ><img
+                  class="mr-1.5 hover:animate-bounce"
+                  alt="book"
+                  width="20"
+                  height="20"
+                  src="assets/icons/loc-button-event.svg"
+                />Lihat Lokasi</a
+              >
+            </button>
+          </div>
+        </div>
+        <div
+          class="laptop:w-3/4 laptop:mx-8 tablet:mx-6 mx-4 mt-8 flex w-4/5 flex-col items-center rounded-md bg-white p-7 text-center"
+        >
+          <h1 class="font-charlotte text-motif laptop:text-6xl mb-5 text-5xl">
+            Protokol Kesehatan
+          </h1>
+          <p class="text-argent laptop:text-lg mb-5 text-base">
+            Acara akan dilaksanakan dengan mematuhi protokol kesehatan, mohon
+            simak anjuran berikut sebelum hadir ke lokasi.
+          </p>
+          <div
+            onclick="hidePopup()"
+            class="popup-prokes fixed top-0 left-0 z-[2] flex hidden h-screen w-full items-center justify-center bg-black opacity-70"
+          >
+            <img
+              class="tablet:w-2/5 laptop:mx-8 tablet:mx-6 mx-4 flex w-4/5 flex-col items-center justify-center rounded-md bg-white"
+              src="assets/images/prokes-popup.png"
+              width="289"
+              height="65"
+              alt="prokes"
+            />
+          </div>
+          <button
+            onclick="showPopup()"
+            class="bg-motif tablet:text-base laptop:text-lg hover:bg-tiki-hut flex w-fit items-center rounded-xl p-2 text-sm font-medium text-white transition duration-300 duration-300 ease-in-out hover:-translate-y-1"
+          >
+            Anjuran Prokes
+          </button>
+        </div>
+      </section>
+
+      <!-- gallery section -->
+      <section
+        class="gallery-container flex h-auto w-screen flex-col items-center justify-center pt-24 pb-4"
+        id="gallery"
+      >
+        <h1
+          class="font-charlotte text-motif laptop:mx-8 tablet:mx-6 laptop:text-6xl mx-4 mb-8 text-center text-5xl"
+        >
+          Bahagia Kami
+        </h1>
+        <p
+          class="text-argent laptop:text-lg laptop:mx-8 tablet:mx-6 mx-4 text-center text-base"
+        >
+          "Mencintai bukan untuk menyamai, tetapi keikhlasan menerima
+          perbedaan."
+        </p>
+        <div
+          x-data="slider()"
+          class="laptop:mx-8 tablet:mx-6 mx-4 mt-8 flex flex-col items-center"
+        >
+          <div class="flex flex-row items-center justify-center">
+            <button
+              @click="back()"
+              class="bg-motif hover:bg-tiki-hut z-0 -mr-6 h-[42px] w-[42px] rounded-full text-white transition duration-300 ease-in-out"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-7 w-9 hover:-translate-x-0.5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+            </button>
+            <template x-for="(image, index) in images">
+              <img
+                x-show="selected == index + 1"
+                class="tablet:w-2/5 w-4/5 rounded-md"
+                :src="image"
+                alt="slide"
+                width="220"
+                height="307"
+            /></template>
+            <button
+              @click="next()"
+              class="bg-motif hover:bg-tiki-hut z-0 -ml-6 h-[42px] w-[42px] rounded-full text-white transition duration-300 ease-in-out"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-7 w-9 hover:translate-x-0.5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- rsvp section -->
+      <section class="rsvp-container h-auto w-screen pt-24 pb-4" id="rsvp">
+        <h1
+          class="font-charlotte text-motif laptop:text-6xl laptop:mx-8 tablet:mx-6 mx-4 mb-8 text-center text-5xl"
+        >
+          Konfirmasi Kehadiran
+        </h1>
+        <p
+          class="text-argent laptop:text-lg laptop:mx-8 tablet:mx-6 mx-4 text-center text-base"
+        >
+          Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga
+          apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu
+          kepada kedua mempelai. Atas kehadiran serta doa restu, kami ucapkan
+          terima kasih.
+        </p>
+        <form
+          class="rsvp-data laptop:mx-[20%] tablet:mx-[10%] mx-4 mt-8 flex flex-col"
+        >
+          <label
+            class="tablet:text-base text-motif laptop:mx-8 tablet:mx-6 mx-4 mb-5 flex flex-col text-sm font-medium"
+            for="name"
+            >Nama<input
+              class="laptop:text-lg text-argent mt-2 rounded-md p-2 text-base font-thin"
+              type="text"
+              id="name"
+              placeholder="Tulis nama anda"
+              required
+          /></label>
+          <label
+            class="tablet:text-base text-motif laptop:mx-8 tablet:mx-6 mx-4 mb-5 flex flex-col text-sm font-medium"
+            for="number"
+            >Jumlah<input
+              class="laptop:text-lg text-argent mt-2 rounded-md p-2 text-base font-thin"
+              type="number"
+              id="number"
+              placeholder="Isi jumlah tamu"
+              required
+              min="1"
+              max="5"
+          /></label>
+          <div class="flex flex-col">
+            <h3
+              class="tablet:text-base text-motif laptop:mx-8 tablet:mx-6 mx-4 mb-2 text-sm font-medium"
+            >
+              Konfirmasi
+            </h3>
+            <label
+              for="rad1"
+              class="laptop:text-lg text-argent laptop:mx-8 tablet:mx-6 mx-4 mb-2 flex text-base font-thin"
+              ><input
+                name="confirm"
+                id="rad1"
+                class="mr-2"
+                value="Hadir"
+                checked
+                type="radio"
+              />Hadir</label
+            >
+            <label
+              for="rad2"
+              class="laptop:text-lg text-argent laptop:mx-8 tablet:mx-6 mx-4 mb-2 flex text-base font-thin"
+              ><input
+                name="confirm"
+                id="rad2"
+                class="mr-2"
+                value="Ragu-ragu"
+                type="radio"
+              />Ragu-ragu</label
+            >
+            <label
+              for="rad3"
+              class="laptop:text-lg text-argent laptop:mx-8 tablet:mx-6 mx-4 mb-2 flex text-base font-thin"
+              ><input
+                name="confirm"
+                id="rad3"
+                class="mr-2"
+                value="Tidak hadir"
+                type="radio"
+              />Tidak hadir</label
+            >
+          </div>
+          <button
+            type="button"
+            class="bg-motif tablet:text-base laptop:text-lg laptop:mx-8 tablet:mx-6 hover:bg-tiki-hut mx-4 mt-5 flex w-fit items-center rounded-xl p-2 text-sm font-medium text-white transition duration-300 duration-300 ease-in-out hover:-translate-y-1"
+          >
+            Reservasi via Whatsapp
+          </button>
+        </form>
+      </section>
+
+      <!-- ucapan section -->
+      <section
+        class="ucapan-container flex h-auto w-screen flex-col items-center pt-24 pb-4"
+      >
+        <h1
+          class="font-charlotte text-motif laptop:text-6xl laptop:mx-8 tablet:mx-6 mx-4 mb-8 text-center text-5xl"
+        >
+          Ucapan Selamat
+        </h1>
+        <div
+          class="ucapan-data laptop:mx-[20%] tablet:mx-[10%] mx-4 flex flex-col rounded-md bg-white"
+        >
+          <div
+            class="text-motif laptop:px-8 tablet:px-6 flex gap-3 border-b-4 px-4 py-3 font-semibold"
+          >
+            <img
+              src="assets/icons/dove-rsvp.svg"
+              alt="dove"
+              width="20"
+              height="20"
+            />
+            <h2 class="tablet:text-base text-sm">12 Ucapan</h2>
+          </div>
+          <form
+            class="laptop:px-8 tablet:px-6 flex flex-col border-b-4 px-4 pb-7"
+          >
+            <input
+              class="laptop:text-lg text-argent mt-5 rounded-md border-2 p-2 text-base font-thin"
+              type="text"
+              id="name"
+              placeholder="Nama"
+              required
+            />
+            <textarea
+              class="laptop:text-lg text-argent mt-5 h-[80px] rounded-md border-2 p-2 text-base font-thin"
+              placeholder="Ucapan"
+              required
+            ></textarea>
+            <select
+              class="laptop:text-lg text-argent mt-5 rounded-md border-2 p-2 text-base font-thin"
+              required
+            >
+              <option disabled selected value>Konfirmasi kehadiran</option>
+              <option value="Hadir">Hadir</option>
+              <option value="Tidak hadir">Tidak hadir</option>
+            </select>
+            <button
+              type="button"
+              class="bg-motif tablet:text-base laptop:text-lg hover:bg-tiki-hut mt-5 flex w-fit items-center rounded-xl p-2 text-sm font-medium text-white transition duration-300 duration-300 ease-in-out hover:-translate-y-1"
+            >
+              Kirim
+            </button>
+          </form>
+          <!-- Hadir -->
+          <div
+            class="laptop:px-8 tablet:px-6 mt-7 flex flex-col border-b-4 px-4 pb-7"
+          >
+            <div class="flex items-start gap-3">
+              <img
+                class="laptop:w-[35px] laptop:h-[35px] h-[30px] w-[30px]"
+                src="assets/icons/msg-rsvp.svg"
+                alt="message"
+                width="14"
+                height="14"
+              />
+              <div class="grid grid-cols-1 items-center gap-2">
+                <div class="flex items-center gap-2">
+                  <h3 class="text-argent tablet:text-lg text-base font-medium">
+                    Dinda
+                  </h3>
+                  <div
+                    class="bg-argent flex items-center gap-1 rounded-md px-1.5 py-0.5 text-white opacity-75"
+                  >
+                    <img
+                      class="laptop:w-[15px] laptop:h-[15px]"
+                      src="assets/icons/checklist-rsvp.svg"
+                      alt="checked"
+                      width="12"
+                      height="12"
+                    />
+                    <p class="tablet:text-base text-sm">Hadir</p>
+                  </div>
+                </div>
+                <div class="text-argent flex items-center gap-2 font-thin">
+                  <img
+                    class="laptop:w-[15px] laptop:h-[15px]"
+                    src="assets/icons/clock-rsvp.svg"
+                    alt="clock"
+                    width="12"
+                    height="12"
+                  />
+                  <p class="tablet:text-sm text-xs">3 hari lalu</p>
+                </div>
+                <p class="text-argent laptop:text-lg text-base">
+                  Selamat Aria dan Citra, semoga dimudahkan dan dilancarkan
+                  sampe hari H dan menjadi keluarga yang samawa.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Tidak Hadir -->
+          <div
+            class="laptop:px-8 tablet:px-6 mt-7 flex flex-col border-b-4 px-4 pb-7"
+          >
+            <div class="flex items-start gap-3">
+              <img
+                class="laptop:w-[35px] laptop:h-[35px] h-[30px] w-[30px]"
+                src="assets/icons/msg-rsvp.svg"
+                alt="message"
+                width="14"
+                height="14"
+              />
+              <div class="grid grid-cols-1 items-center gap-2">
+                <div class="flex items-center gap-2">
+                  <h3 class="text-argent tablet:text-lg text-base font-medium">
+                    Ahsan
+                  </h3>
+                  <div
+                    class="bg-argent flex items-center gap-1 rounded-md px-1.5 py-0.5 text-white opacity-75"
+                  >
+                    <img
+                      class="laptop:w-[15px] laptop:h-[15px]"
+                      src="assets/icons/checklist-rsvp.svg"
+                      alt="checked"
+                      width="12"
+                      height="12"
+                    />
+                    <p class="tablet:text-base text-sm">Tidak hadir</p>
+                  </div>
+                </div>
+                <div class="text-argent flex items-center gap-2 font-thin">
+                  <img
+                    class="laptop:w-[15px] laptop:h-[15px]"
+                    src="assets/icons/clock-rsvp.svg"
+                    alt="clock"
+                    width="12"
+                    height="12"
+                  />
+                  <p class="tablet:text-sm text-xs">1 minggu lalu</p>
+                </div>
+                <p class="text-argent laptop:text-lg text-base">
+                  Lancar sampai hari H dan menjadi keluarga samawa untuk Aria &
+                  Citra.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tablet:gap-5 laptop:px-8 tablet:px-6 flex items-center justify-center gap-3 px-4 py-3"
+          >
+            <a
+              class="text-argent laptop:text-base flex gap-1 text-sm font-medium"
+              ><img
+                src="assets/icons/arrow-left-rsvp.svg"
+                alt="back"
+                width="15"
+                height="15"
+              />Previous</a
+            >
+            <span
+              class="tablet:gap-4 text-argent laptop:text-base flex gap-2 text-sm"
+            >
+              <a class="font-semibold">1</a>
+              <a>2</a>
+              <a>3</a>
+              <a>4</a>
+              <a>5</a>
+            </span>
+            <a
+              class="text-argent laptop:text-base flex gap-1 text-sm font-medium"
+              >Next<img
+                src="assets/icons/arrow-right-rsvp.svg"
+                alt="back"
+                width="15"
+                height="15"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer
+      class="bg-bleached-silk h-auto w-screen items-center py-24"
+      id="footer"
+    >
+      <p
+        class="text-argent laptop:text-lg laptop:mx-8 tablet:mx-6 mx-4 mb-8 text-center text-base"
+      >
+        Atas Doa dan Restu dari Bapak/Ibu/Saudara/i Kami ucapkan banyak terima
+        kasih.
+      </p>
+      <h1
+        class="font-charlotte text-motif laptop:text-6xl laptop:mx-8 tablet:mx-6 mx-4 mb-8 text-center text-5xl"
+      >
+        Aria & Citra
+      </h1>
+    </footer>
+    <!-- scrollup button -->
+    <button
+      id="scrollup"
+      class="tablet:mr-5 tablet:mb-28 fixed bottom-0 right-0 z-[1] mr-2 mb-24 duration-300 hover:-translate-y-1"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="text-argent h-[30px] w-[30px] rounded-md bg-white p-1"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M4.5 15.75l7.5-7.5 7.5 7.5"
+        />
+      </svg>
+    </button>
+  </body>
+  <!-- add some js function -->
+  <script src="assets/scripts/main.js"></script>
+</html>
