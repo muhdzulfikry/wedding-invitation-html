@@ -28,6 +28,10 @@ const showMain = () => {
 openInvitation.addEventListener("click", showMain);
 
 
+// hide hash anchor url
+window.onhashchange = function () { window.history.pushState('', document.title, window.location.pathname) }
+
+
 // background music
 var music = new Audio('assets/musics/marry-your-daughter.mp3');
 const clickButton = document.getElementById("inv-btn");
